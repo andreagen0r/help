@@ -1,12 +1,13 @@
 qt_add_qml_module(base_module
     URI "Base"
     VERSION 1.0
+    STATIC
     QML_FILES
         PrimaryWindow.qml
         SecondaryWindow.qml
 )
 
-target_link_libraries("AwesomeApp" PRIVATE base_module )
+target_link_libraries("AwesomeApp" PRIVATE base_moduleplugin )
 
 qt_query_qml_module(base_module
     URI module_uri

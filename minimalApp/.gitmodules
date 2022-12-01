@@ -1,0 +1,9 @@
+[submodule "engine/3rdparty/spdlog"]
+	path = engine/3rdparty/spdlog
+	url = https://github.com/andreagen0r/spdlog.git
+[submodule "engine/3rdparty/magic_enum"]
+	path = engine/3rdparty/magic_enum
+	url = https://github.com/andreagen0r/magic_enum.git
+[submodule "engine/3rdparty/nlohmann-json"]
+	path = engine/3rdparty/nlohmann-json
+	url = https://github.com/andreagen0r/nlohmann-json.git

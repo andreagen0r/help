@@ -1,0 +1,17 @@
+#pragma once
+
+#include <string>
+#include <string_view>
+
+//// clang-format off
+//// cppcheck-suppress
+using namespace std::literals;
+
+namespace qone::engine::info {
+const std::string gitBranch { "@GIT_BRANCH@"sv };
+const std::string gitCommit { "@GIT_COMMIT_HASH@"sv };
+const std::string gitTag { "@GIT_TAG@"sv };
+const std::string gitAuthors { R"(@GIT_AUTHORS@)"sv };
+const std::string projectName { "@PROJECT_NAME@"sv };
+const std::string projectVersion { "@PROJECT_VERSION@"sv };
+} // namespace qone::engine::info
